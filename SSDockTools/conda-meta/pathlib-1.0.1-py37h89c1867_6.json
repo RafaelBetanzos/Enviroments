@@ -1,0 +1,35 @@
+{
+  "build": "py37h89c1867_6",
+  "build_number": 6,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m"
+  ],
+  "extracted_package_dir": "/home/rbetanzos/anaconda3/pkgs/pathlib-1.0.1-py37h89c1867_6",
+  "features": "",
+  "files": [],
+  "fn": "pathlib-1.0.1-py37h89c1867_6.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/rbetanzos/anaconda3/pkgs/pathlib-1.0.1-py37h89c1867_6",
+    "type": 1
+  },
+  "md5": "fe831ca2a572a7ba75f8646ec046846f",
+  "name": "pathlib",
+  "package_tarball_full_path": "/home/rbetanzos/anaconda3/pkgs/pathlib-1.0.1-py37h89c1867_6.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "pathlib",
+  "sha256": "546525bea5ddc95fac34c2cf7feaa4d9d02feb3a5538593b86080df4ad3cb7e2",
+  "size": 4284,
+  "subdir": "linux-64",
+  "timestamp": 1649453795449,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pathlib-1.0.1-py37h89c1867_6.tar.bz2",
+  "version": "1.0.1"
+}

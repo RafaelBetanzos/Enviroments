@@ -1,0 +1,1588 @@
+{
+  "build": "py37h527cbdb_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "astunparse",
+    "libgcc-ng >=9.4.0",
+    "libstdcxx-ng >=9.4.0",
+    "libzlib >=1.2.11,<1.3.0a0",
+    "numpy >=1.18.5,<2.0a0",
+    "pandas",
+    "pyparsing",
+    "pytables",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "scipy",
+    "setuptools",
+    "snappy",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/rbetanzos/anaconda3/pkgs/mdtraj-1.9.7-py37h527cbdb_1",
+  "features": "",
+  "files": [
+    "bin/mdconvert",
+    "bin/mdinspect",
+    "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/LICENSE",
+    "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/METADATA",
+    "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/RECORD",
+    "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/REQUESTED",
+    "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/WHEEL",
+    "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/direct_url.json",
+    "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/entry_points.txt",
+    "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/mdtraj/__init__.py",
+    "lib/python3.7/site-packages/mdtraj/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/__pycache__/io.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/__pycache__/version.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/_lprmsd.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/mdtraj/_rmsd.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/mdtraj/core/__init__.py",
+    "lib/python3.7/site-packages/mdtraj/core/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/core/__pycache__/element.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/core/__pycache__/residue_names.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/core/__pycache__/selection.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/core/__pycache__/topology.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/core/__pycache__/trajectory.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/core/element.py",
+    "lib/python3.7/site-packages/mdtraj/core/lib/center.h",
+    "lib/python3.7/site-packages/mdtraj/core/lib/libtheobald.a",
+    "lib/python3.7/site-packages/mdtraj/core/lib/theobald_rmsd.h",
+    "lib/python3.7/site-packages/mdtraj/core/residue_names.py",
+    "lib/python3.7/site-packages/mdtraj/core/selection.py",
+    "lib/python3.7/site-packages/mdtraj/core/topology.py",
+    "lib/python3.7/site-packages/mdtraj/core/trajectory.py",
+    "lib/python3.7/site-packages/mdtraj/formats/__init__.py",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/amberrst.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/arc.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/gro.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/gsd.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/hdf5.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/hoomdxml.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/lammpstrj.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/lh5.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/mdcrd.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/mol2.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/netcdf.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/openmmxml.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/prmtop.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/psf.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/registry.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/__pycache__/xyzfile.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/amberrst.py",
+    "lib/python3.7/site-packages/mdtraj/formats/arc.py",
+    "lib/python3.7/site-packages/mdtraj/formats/binpos.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/mdtraj/formats/dcd.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/mdtraj/formats/dtr.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/mdtraj/formats/gro.py",
+    "lib/python3.7/site-packages/mdtraj/formats/gsd.py",
+    "lib/python3.7/site-packages/mdtraj/formats/hdf5.py",
+    "lib/python3.7/site-packages/mdtraj/formats/hoomdxml.py",
+    "lib/python3.7/site-packages/mdtraj/formats/lammpstrj.py",
+    "lib/python3.7/site-packages/mdtraj/formats/lh5.py",
+    "lib/python3.7/site-packages/mdtraj/formats/mdcrd.py",
+    "lib/python3.7/site-packages/mdtraj/formats/mol2.py",
+    "lib/python3.7/site-packages/mdtraj/formats/netcdf.py",
+    "lib/python3.7/site-packages/mdtraj/formats/openmmxml.py",
+    "lib/python3.7/site-packages/mdtraj/formats/pdb/__init__.py",
+    "lib/python3.7/site-packages/mdtraj/formats/pdb/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/pdb/__pycache__/pdbfile.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/pdb/__pycache__/pdbstructure.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/formats/pdb/data/pdbNames.xml",
+    "lib/python3.7/site-packages/mdtraj/formats/pdb/data/residues.xml",
+    "lib/python3.7/site-packages/mdtraj/formats/pdb/pdbfile.py",
+    "lib/python3.7/site-packages/mdtraj/formats/pdb/pdbstructure.py",
+    "lib/python3.7/site-packages/mdtraj/formats/prmtop.py",
+    "lib/python3.7/site-packages/mdtraj/formats/psf.py",
+    "lib/python3.7/site-packages/mdtraj/formats/registry.py",
+    "lib/python3.7/site-packages/mdtraj/formats/tng.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/mdtraj/formats/trr.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/mdtraj/formats/xtc.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/mdtraj/formats/xyzfile.py",
+    "lib/python3.7/site-packages/mdtraj/geometry/__init__.py",
+    "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/alignment.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/angle.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/contact.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/dihedral.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/distance.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/dssp.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/hbond.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/internal.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/order.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/rdf.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/rg.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/sasa.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/shape.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/thermodynamic_properties.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/geometry/_geometry.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/mdtraj/geometry/alignment.py",
+    "lib/python3.7/site-packages/mdtraj/geometry/angle.py",
+    "lib/python3.7/site-packages/mdtraj/geometry/contact.py",
+    "lib/python3.7/site-packages/mdtraj/geometry/dihedral.py",
+    "lib/python3.7/site-packages/mdtraj/geometry/distance.py",
+    "lib/python3.7/site-packages/mdtraj/geometry/drid.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/mdtraj/geometry/dssp.py",
+    "lib/python3.7/site-packages/mdtraj/geometry/hbond.py",
+    "lib/python3.7/site-packages/mdtraj/geometry/internal.py",
+    "lib/python3.7/site-packages/mdtraj/geometry/neighborlist.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/mdtraj/geometry/neighbors.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/mdtraj/geometry/order.py",
+    "lib/python3.7/site-packages/mdtraj/geometry/rdf.py",
+    "lib/python3.7/site-packages/mdtraj/geometry/rg.py",
+    "lib/python3.7/site-packages/mdtraj/geometry/sasa.py",
+    "lib/python3.7/site-packages/mdtraj/geometry/shape.py",
+    "lib/python3.7/site-packages/mdtraj/geometry/thermodynamic_properties.py",
+    "lib/python3.7/site-packages/mdtraj/io.py",
+    "lib/python3.7/site-packages/mdtraj/nmr/__init__.py",
+    "lib/python3.7/site-packages/mdtraj/nmr/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/nmr/__pycache__/scalar_couplings.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/nmr/__pycache__/shift_wrappers.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/nmr/scalar_couplings.py",
+    "lib/python3.7/site-packages/mdtraj/nmr/shift_wrappers.py",
+    "lib/python3.7/site-packages/mdtraj/reporters/__init__.py",
+    "lib/python3.7/site-packages/mdtraj/reporters/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/reporters/__pycache__/basereporter.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/reporters/__pycache__/dcdreporter.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/reporters/__pycache__/hdf5reporter.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/reporters/__pycache__/netcdfreporter.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/reporters/__pycache__/xtcreporter.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/reporters/basereporter.py",
+    "lib/python3.7/site-packages/mdtraj/reporters/dcdreporter.py",
+    "lib/python3.7/site-packages/mdtraj/reporters/hdf5reporter.py",
+    "lib/python3.7/site-packages/mdtraj/reporters/netcdfreporter.py",
+    "lib/python3.7/site-packages/mdtraj/reporters/xtcreporter.py",
+    "lib/python3.7/site-packages/mdtraj/scripts/__init__.py",
+    "lib/python3.7/site-packages/mdtraj/scripts/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/scripts/__pycache__/mdconvert.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/scripts/__pycache__/mdinspect.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/scripts/mdconvert.py",
+    "lib/python3.7/site-packages/mdtraj/scripts/mdinspect.py",
+    "lib/python3.7/site-packages/mdtraj/testing/__init__.py",
+    "lib/python3.7/site-packages/mdtraj/testing/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/testing/__pycache__/docscrape.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/testing/__pycache__/docstrings.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/testing/__pycache__/testing.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/testing/docscrape.py",
+    "lib/python3.7/site-packages/mdtraj/testing/docstrings.py",
+    "lib/python3.7/site-packages/mdtraj/testing/testing.py",
+    "lib/python3.7/site-packages/mdtraj/utils/__init__.py",
+    "lib/python3.7/site-packages/mdtraj/utils/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/__pycache__/contextmanagers.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/__pycache__/delay_import.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/__pycache__/rotation.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/__pycache__/singleton.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/__pycache__/six.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/__pycache__/unitcell.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/__pycache__/validation.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/__pycache__/zipped.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/contextmanagers.py",
+    "lib/python3.7/site-packages/mdtraj/utils/delay_import.py",
+    "lib/python3.7/site-packages/mdtraj/utils/rotation.py",
+    "lib/python3.7/site-packages/mdtraj/utils/singleton.py",
+    "lib/python3.7/site-packages/mdtraj/utils/six.py",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/__init__.py",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/basedimension.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/baseunit.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/constants.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/doctests.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/mymatrix.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/prefix.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/quantity.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/standard_dimensions.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/unit.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/unit_definitions.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/unit_math.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/unit_operators.cpython-37.pyc",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/basedimension.py",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/baseunit.py",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/constants.py",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/doctests.py",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/mymatrix.py",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/prefix.py",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/quantity.py",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/standard_dimensions.py",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/unit.py",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/unit_definitions.py",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/unit_math.py",
+    "lib/python3.7/site-packages/mdtraj/utils/unit/unit_operators.py",
+    "lib/python3.7/site-packages/mdtraj/utils/unitcell.py",
+    "lib/python3.7/site-packages/mdtraj/utils/validation.py",
+    "lib/python3.7/site-packages/mdtraj/utils/zipped.py",
+    "lib/python3.7/site-packages/mdtraj/version.py"
+  ],
+  "fn": "mdtraj-1.9.7-py37h527cbdb_1.tar.bz2",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/rbetanzos/anaconda3/pkgs/mdtraj-1.9.7-py37h527cbdb_1",
+    "type": 1
+  },
+  "md5": "04fc70c6b05bae642bc2e77977679d71",
+  "name": "mdtraj",
+  "package_tarball_full_path": "/home/rbetanzos/anaconda3/pkgs/mdtraj-1.9.7-py37h527cbdb_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/mdconvert",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/mdtraj_1638287959402/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "a66f5c2a2e92491fdb551bddbca145c7bc5c72557a25dcd592dacc94fcdd1ae5",
+        "sha256_in_prefix": "f4a1772ed60d5a1ca3ce6208b5b165f4a3e53a90197297d3596432ac6de4e878",
+        "size_in_bytes": 491
+      },
+      {
+        "_path": "bin/mdinspect",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/mdtraj_1638287959402/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "493b6297e5ea7b1c4978f8b9473760ae3b62a12d78b89018dd3f5a8efcc9f4d9",
+        "sha256_in_prefix": "f00816e7d572dc2d085f71d037840eb4d1ac1bff85ae976f699cd8cd6a668bb2",
+        "size_in_bytes": 491
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+        "sha256_in_prefix": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+        "size_in_bytes": 26530
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5daa7c7be82454eefa69f8abb225f9541a97fbbd8e54d29128423eac4b4df86b",
+        "sha256_in_prefix": "5daa7c7be82454eefa69f8abb225f9541a97fbbd8e54d29128423eac4b4df86b",
+        "size_in_bytes": 1618
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4fddfc1e24fa6cc3e9a2e4b7df20400e00d43808f7dc57244f93079984fcf420",
+        "sha256_in_prefix": "4fddfc1e24fa6cc3e9a2e4b7df20400e00d43808f7dc57244f93079984fcf420",
+        "size_in_bytes": 14087
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7fb3facf40f0f4168c5bcb4e5f5415f50808e71509b03de30b00319831b8f84d",
+        "sha256_in_prefix": "7fb3facf40f0f4168c5bcb4e5f5415f50808e71509b03de30b00319831b8f84d",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d108496727fb68e56c5aafd95af5d7496de74aa199b3db2721c22ae13cde7f65",
+        "sha256_in_prefix": "d108496727fb68e56c5aafd95af5d7496de74aa199b3db2721c22ae13cde7f65",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "7c5f8351acb30ec70ed1166ef73badabec0ed860222b4a9336f46f043fa87eef",
+        "sha256_in_prefix": "7c5f8351acb30ec70ed1166ef73badabec0ed860222b4a9336f46f043fa87eef",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj-1.9.7.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "abd7c65e60bdad73cbd6585373061e2d0968599b54bffa4a4788ac320dcc86d6",
+        "sha256_in_prefix": "abd7c65e60bdad73cbd6585373061e2d0968599b54bffa4a4788ac320dcc86d6",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cfcf3da11dc8f8c9ecd9c8815329d748f76a7802292a2b508b54d782f3107ce3",
+        "sha256_in_prefix": "cfcf3da11dc8f8c9ecd9c8815329d748f76a7802292a2b508b54d782f3107ce3",
+        "size_in_bytes": 2628
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d6a341f321a0ca8acf671c07fb75135333129ad114f86165b4ee0cfe48e2fc66",
+        "sha256_in_prefix": "d6a341f321a0ca8acf671c07fb75135333129ad114f86165b4ee0cfe48e2fc66",
+        "size_in_bytes": 2033
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/__pycache__/io.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "13eb21fa71873125f04015132958135d3b0cd6cd9c26c18497b6df6ecd92d18e",
+        "sha256_in_prefix": "13eb21fa71873125f04015132958135d3b0cd6cd9c26c18497b6df6ecd92d18e",
+        "size_in_bytes": 8576
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/__pycache__/version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd15c6cf4cda04848d18c1d8b468b84847105ab998162b3956470340a96735ed",
+        "sha256_in_prefix": "fd15c6cf4cda04848d18c1d8b468b84847105ab998162b3956470340a96735ed",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/_lprmsd.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "034da7d14d8825b4a94d4c11726f75cfde3a98ae10c832ecd619589f5893c6ca",
+        "sha256_in_prefix": "034da7d14d8825b4a94d4c11726f75cfde3a98ae10c832ecd619589f5893c6ca",
+        "size_in_bytes": 275016
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/_rmsd.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "3957db32b015f3e3954aab9a9c773a64bfbceedaf2b87ec6af298e6f1b681fd3",
+        "sha256_in_prefix": "3957db32b015f3e3954aab9a9c773a64bfbceedaf2b87ec6af298e6f1b681fd3",
+        "size_in_bytes": 466560
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/core/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e6ff63be3e1ff2c4777a7dbae4e0e647f225b3aef2defad1ed7f61d7a235bb65",
+        "sha256_in_prefix": "e6ff63be3e1ff2c4777a7dbae4e0e647f225b3aef2defad1ed7f61d7a235bb65",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/core/__pycache__/element.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2102e76283db4cb7e03c120bc85caa9023c2c25aec37a74b66b7f407630b9426",
+        "sha256_in_prefix": "2102e76283db4cb7e03c120bc85caa9023c2c25aec37a74b66b7f407630b9426",
+        "size_in_bytes": 13287
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/core/__pycache__/residue_names.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "626919bfa951b06fa491a33fbadbd9f5fe8f416cbcc5691f60b48de583ddf18b",
+        "sha256_in_prefix": "626919bfa951b06fa491a33fbadbd9f5fe8f416cbcc5691f60b48de583ddf18b",
+        "size_in_bytes": 7923
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/core/__pycache__/selection.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "94c770e5990ec63b540cf60769091b71f79524392b0aedbf156e27accde1770e",
+        "sha256_in_prefix": "94c770e5990ec63b540cf60769091b71f79524392b0aedbf156e27accde1770e",
+        "size_in_bytes": 12804
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/core/__pycache__/topology.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c03ef7190f8136f812aafca6a690445f35d2f70d74746d970214840cffdf240",
+        "sha256_in_prefix": "4c03ef7190f8136f812aafca6a690445f35d2f70d74746d970214840cffdf240",
+        "size_in_bytes": 54170
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/core/__pycache__/trajectory.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f7c22030f141c429cb26632646f2691d4b22056ae3e01c933507f2bddea7789",
+        "sha256_in_prefix": "7f7c22030f141c429cb26632646f2691d4b22056ae3e01c933507f2bddea7789",
+        "size_in_bytes": 65388
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/core/element.py",
+        "path_type": "hardlink",
+        "sha256": "0a27af711a4c3f3315360f5943c899d32fab49ca6c02045ecfc24b5bba86d349",
+        "sha256_in_prefix": "0a27af711a4c3f3315360f5943c899d32fab49ca6c02045ecfc24b5bba86d349",
+        "size_in_bytes": 15631
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/core/lib/center.h",
+        "path_type": "hardlink",
+        "sha256": "1112a65df930f3666b1f56188e92622b577a8f6b3fb5cf7db91d4fc5f78a279a",
+        "sha256_in_prefix": "1112a65df930f3666b1f56188e92622b577a8f6b3fb5cf7db91d4fc5f78a279a",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/core/lib/libtheobald.a",
+        "path_type": "hardlink",
+        "sha256": "7b687f83c8d759ea053d7fc0c46a3be897cb542bedb6ab781b6f80e857f25a19",
+        "sha256_in_prefix": "7b687f83c8d759ea053d7fc0c46a3be897cb542bedb6ab781b6f80e857f25a19",
+        "size_in_bytes": 18766
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/core/lib/theobald_rmsd.h",
+        "path_type": "hardlink",
+        "sha256": "b32534500b4c59a59ec409380a04056c8fea69cdbc2a5f4477c2c1d24c4e8be0",
+        "sha256_in_prefix": "b32534500b4c59a59ec409380a04056c8fea69cdbc2a5f4477c2c1d24c4e8be0",
+        "size_in_bytes": 810
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/core/residue_names.py",
+        "path_type": "hardlink",
+        "sha256": "032e8d55079ebadcf160aba8a6a55015c4a9fd36fe9a2a4c9eb807b6fa9aebd5",
+        "sha256_in_prefix": "032e8d55079ebadcf160aba8a6a55015c4a9fd36fe9a2a4c9eb807b6fa9aebd5",
+        "size_in_bytes": 13043
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/core/selection.py",
+        "path_type": "hardlink",
+        "sha256": "de2c7de856e2af109308ccf90a4a96d9c6c9f475b26de0cda05ff7644a03b447",
+        "sha256_in_prefix": "de2c7de856e2af109308ccf90a4a96d9c6c9f475b26de0cda05ff7644a03b447",
+        "size_in_bytes": 15006
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/core/topology.py",
+        "path_type": "hardlink",
+        "sha256": "85c3fdd1c77e6697daf8b90278ebc2ddf1a5a7c6c56c1ab23cc1b01e62813f54",
+        "sha256_in_prefix": "85c3fdd1c77e6697daf8b90278ebc2ddf1a5a7c6c56c1ab23cc1b01e62813f54",
+        "size_in_bytes": 60641
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/core/trajectory.py",
+        "path_type": "hardlink",
+        "sha256": "5dff72807186a0e41bc28926ea0c200d022fba49f74c72e6cf8a53e370c9e880",
+        "sha256_in_prefix": "5dff72807186a0e41bc28926ea0c200d022fba49f74c72e6cf8a53e370c9e880",
+        "size_in_bytes": 81481
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d845970c79306e8938e24c71bd100b524c4913af00fcb9673d99041d5d2a357c",
+        "sha256_in_prefix": "d845970c79306e8938e24c71bd100b524c4913af00fcb9673d99041d5d2a357c",
+        "size_in_bytes": 659
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b5941fe527fbca1848f377f258ee906b5d1e2eb9c1eda4acc20084626a20bef",
+        "sha256_in_prefix": "3b5941fe527fbca1848f377f258ee906b5d1e2eb9c1eda4acc20084626a20bef",
+        "size_in_bytes": 984
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/amberrst.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "35b891e12f375e0402daf03ce636244aacdef7d081949939cc750aed18bb23d3",
+        "sha256_in_prefix": "35b891e12f375e0402daf03ce636244aacdef7d081949939cc750aed18bb23d3",
+        "size_in_bytes": 23880
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/arc.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "06d09c75a7ea9204fdcd0ef25a0fb523c9f49b18cb293d5f4bb6de2f69b3f50d",
+        "sha256_in_prefix": "06d09c75a7ea9204fdcd0ef25a0fb523c9f49b18cb293d5f4bb6de2f69b3f50d",
+        "size_in_bytes": 11357
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/gro.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "074041f20dcd1a180be06a2d9202510d72975874880f49fb9f1a03da44f36efd",
+        "sha256_in_prefix": "074041f20dcd1a180be06a2d9202510d72975874880f49fb9f1a03da44f36efd",
+        "size_in_bytes": 15434
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/gsd.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2c1f9ab6980a537c5e44406f6fce85fb451d96fcd7cafd502e0d710e82f7dde3",
+        "sha256_in_prefix": "2c1f9ab6980a537c5e44406f6fce85fb451d96fcd7cafd502e0d710e82f7dde3",
+        "size_in_bytes": 9253
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/hdf5.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8d6a16acf624db756412c6ce5b80950e801cbeb68100a27a597dffa772349fb6",
+        "sha256_in_prefix": "8d6a16acf624db756412c6ce5b80950e801cbeb68100a27a597dffa772349fb6",
+        "size_in_bytes": 27714
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/hoomdxml.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2a1b2e6aeb940c415fb2ece57c92e7722ff95b02fd03bb65f4d8d6caed5d4dd3",
+        "sha256_in_prefix": "2a1b2e6aeb940c415fb2ece57c92e7722ff95b02fd03bb65f4d8d6caed5d4dd3",
+        "size_in_bytes": 4536
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/lammpstrj.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "62cd519183752a65062179d0b8cb81057312b99e350c73a4ef2fc513c93d3e0d",
+        "sha256_in_prefix": "62cd519183752a65062179d0b8cb81057312b99e350c73a4ef2fc513c93d3e0d",
+        "size_in_bytes": 17395
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/lh5.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fef186a7238adafb6d5aef165f965053e9f1550f454bde506209a6a819749d90",
+        "sha256_in_prefix": "fef186a7238adafb6d5aef165f965053e9f1550f454bde506209a6a819749d90",
+        "size_in_bytes": 14650
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/mdcrd.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9574f8b62c5964ea8d32de379cf6f92ffe729bf5d09bc8bf0a911f59d7d2a0b8",
+        "sha256_in_prefix": "9574f8b62c5964ea8d32de379cf6f92ffe729bf5d09bc8bf0a911f59d7d2a0b8",
+        "size_in_bytes": 13636
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/mol2.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e9e3f6d8b34629be829daf3ccc59499215b1d50da99fc063d319432a007d123",
+        "sha256_in_prefix": "3e9e3f6d8b34629be829daf3ccc59499215b1d50da99fc063d319432a007d123",
+        "size_in_bytes": 6095
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/netcdf.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "41c6c9ee20c047ec59f23f81f39fc368e68411fb38f78960c40b0d5326fa2dfd",
+        "sha256_in_prefix": "41c6c9ee20c047ec59f23f81f39fc368e68411fb38f78960c40b0d5326fa2dfd",
+        "size_in_bytes": 15343
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/openmmxml.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "93de0f79169d8ca7381c6cc2d37dfd7dddc757e6e46572d3ee931d6fb6e078ea",
+        "sha256_in_prefix": "93de0f79169d8ca7381c6cc2d37dfd7dddc757e6e46572d3ee931d6fb6e078ea",
+        "size_in_bytes": 1730
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/prmtop.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "af1c7bb76ba56fce1b919be4d187e00eff03c42383850cf02e864dd777c99dcc",
+        "sha256_in_prefix": "af1c7bb76ba56fce1b919be4d187e00eff03c42383850cf02e864dd777c99dcc",
+        "size_in_bytes": 4450
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/psf.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ccb673925f5d017c0d03f374b3e92d9562e4159e9f82154b4f5e6cb8aedc9ac9",
+        "sha256_in_prefix": "ccb673925f5d017c0d03f374b3e92d9562e4159e9f82154b4f5e6cb8aedc9ac9",
+        "size_in_bytes": 5622
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/registry.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f594a15e1eae41301d06488c669bc2e1c00db028ceee862dd6b1e05119a9af41",
+        "sha256_in_prefix": "f594a15e1eae41301d06488c669bc2e1c00db028ceee862dd6b1e05119a9af41",
+        "size_in_bytes": 1481
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/__pycache__/xyzfile.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "58fcc1c434cd059698f163c967d23e725e64ddfc4f94b694cb2088c367733b40",
+        "sha256_in_prefix": "58fcc1c434cd059698f163c967d23e725e64ddfc4f94b694cb2088c367733b40",
+        "size_in_bytes": 11378
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/amberrst.py",
+        "path_type": "hardlink",
+        "sha256": "9494b1431eac8d09a74d45745f8f4e5056f89f2c28cd1711283220b440d6e986",
+        "sha256_in_prefix": "9494b1431eac8d09a74d45745f8f4e5056f89f2c28cd1711283220b440d6e986",
+        "size_in_bytes": 33372
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/arc.py",
+        "path_type": "hardlink",
+        "sha256": "482a90cfe71bb70431aaf8aacbcba1e4568b74a592b65fbae580fee14dbfc8f8",
+        "sha256_in_prefix": "482a90cfe71bb70431aaf8aacbcba1e4568b74a592b65fbae580fee14dbfc8f8",
+        "size_in_bytes": 13744
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/binpos.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "d028e959cf2e1fc4ee6141d91f4760d901e65e13b20d285790db89b17f6e52ba",
+        "sha256_in_prefix": "d028e959cf2e1fc4ee6141d91f4760d901e65e13b20d285790db89b17f6e52ba",
+        "size_in_bytes": 181912
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/dcd.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "419ab1189f300955cf518aaba8497e2f484d2f1ef1b0cd9472de82f0e05ef512",
+        "sha256_in_prefix": "419ab1189f300955cf518aaba8497e2f484d2f1ef1b0cd9472de82f0e05ef512",
+        "size_in_bytes": 212304
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/dtr.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "71951ecddc067cb6bed31989cd7d37d3ae27a4ac3cf71174e2e167f109bd158b",
+        "sha256_in_prefix": "71951ecddc067cb6bed31989cd7d37d3ae27a4ac3cf71174e2e167f109bd158b",
+        "size_in_bytes": 357024
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/gro.py",
+        "path_type": "hardlink",
+        "sha256": "e53bf8a210bc34fb645733c0f82c25c1a9b77747cc10a1a6f6563318ab14a1a6",
+        "sha256_in_prefix": "e53bf8a210bc34fb645733c0f82c25c1a9b77747cc10a1a6f6563318ab14a1a6",
+        "size_in_bytes": 21010
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/gsd.py",
+        "path_type": "hardlink",
+        "sha256": "fa65872b1869e79cdc30a5968eff32ea705de6f1835e20e5d20cda16bb62822d",
+        "sha256_in_prefix": "fa65872b1869e79cdc30a5968eff32ea705de6f1835e20e5d20cda16bb62822d",
+        "size_in_bytes": 11184
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/hdf5.py",
+        "path_type": "hardlink",
+        "sha256": "e7723c1eb6ae9efc76c0953751a18f30d53e0d8816cbf04f30e380b8a9117833",
+        "sha256_in_prefix": "e7723c1eb6ae9efc76c0953751a18f30d53e0d8816cbf04f30e380b8a9117833",
+        "size_in_bytes": 40767
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/hoomdxml.py",
+        "path_type": "hardlink",
+        "sha256": "5e36b03fd862d9d888b0c365f950e217efd9df2d218687313d2c4e7733e40917",
+        "sha256_in_prefix": "5e36b03fd862d9d888b0c365f950e217efd9df2d218687313d2c4e7733e40917",
+        "size_in_bytes": 5880
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/lammpstrj.py",
+        "path_type": "hardlink",
+        "sha256": "70129e67b585a44b402a3200a20a2bf9a10f16dc6c30abad7dae230d98665386",
+        "sha256_in_prefix": "70129e67b585a44b402a3200a20a2bf9a10f16dc6c30abad7dae230d98665386",
+        "size_in_bytes": 23510
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/lh5.py",
+        "path_type": "hardlink",
+        "sha256": "45ba7fa07584b159efaadcfb852f0fc6a2f039ad891874b177d9195919b6b59e",
+        "sha256_in_prefix": "45ba7fa07584b159efaadcfb852f0fc6a2f039ad891874b177d9195919b6b59e",
+        "size_in_bytes": 17956
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/mdcrd.py",
+        "path_type": "hardlink",
+        "sha256": "e60f24f06c7cf8e701647ff755df5372b6bdcda2fc3964d023fd596db31a658d",
+        "sha256_in_prefix": "e60f24f06c7cf8e701647ff755df5372b6bdcda2fc3964d023fd596db31a658d",
+        "size_in_bytes": 18399
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/mol2.py",
+        "path_type": "hardlink",
+        "sha256": "c05c21c9493e72b32bdcae2120585d92dba6835d9b2d39847cec0fd721749bd1",
+        "sha256_in_prefix": "c05c21c9493e72b32bdcae2120585d92dba6835d9b2d39847cec0fd721749bd1",
+        "size_in_bytes": 9937
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/netcdf.py",
+        "path_type": "hardlink",
+        "sha256": "16c0fa523f6dbda0c98d1aa3f5f6050b6b71a1447e89abd1f7c3d5f6218fcda0",
+        "sha256_in_prefix": "16c0fa523f6dbda0c98d1aa3f5f6050b6b71a1447e89abd1f7c3d5f6218fcda0",
+        "size_in_bytes": 23226
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/openmmxml.py",
+        "path_type": "hardlink",
+        "sha256": "9ef54c71f49b29e30a0549c913a80f789e78c0dd534ced05a9e6797acb5760f0",
+        "sha256_in_prefix": "9ef54c71f49b29e30a0549c913a80f789e78c0dd534ced05a9e6797acb5760f0",
+        "size_in_bytes": 2835
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/pdb/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1286143621336bfa041808505e0eba8cbacc21be545e7e59e083c089639bebbb",
+        "sha256_in_prefix": "1286143621336bfa041808505e0eba8cbacc21be545e7e59e083c089639bebbb",
+        "size_in_bytes": 1131
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/pdb/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "35c9b1e48b132cf8886ccc1f25d4122e0b6a343320d915b8ce4b9fa1aeba21eb",
+        "sha256_in_prefix": "35c9b1e48b132cf8886ccc1f25d4122e0b6a343320d915b8ce4b9fa1aeba21eb",
+        "size_in_bytes": 300
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/pdb/__pycache__/pdbfile.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b950f08896782d6ed0202e972f17408cda43705231bf62c1cffaf01019e94597",
+        "sha256_in_prefix": "b950f08896782d6ed0202e972f17408cda43705231bf62c1cffaf01019e94597",
+        "size_in_bytes": 20547
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/pdb/__pycache__/pdbstructure.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7d74a9d62fee5daf0bf35435571ca69dae029cff67fc17cd5646394af69a78b",
+        "sha256_in_prefix": "e7d74a9d62fee5daf0bf35435571ca69dae029cff67fc17cd5646394af69a78b",
+        "size_in_bytes": 28312
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/pdb/data/pdbNames.xml",
+        "path_type": "hardlink",
+        "sha256": "bcc5a9758da329f1658f209012b7a7bd6205bedbf86a133244908f39df17451b",
+        "sha256_in_prefix": "bcc5a9758da329f1658f209012b7a7bd6205bedbf86a133244908f39df17451b",
+        "size_in_bytes": 9967
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/pdb/data/residues.xml",
+        "path_type": "hardlink",
+        "sha256": "c39117bf12d024bae472a00bed4ad73ec7cefbdec24ea56fe874c1822ec0512e",
+        "sha256_in_prefix": "c39117bf12d024bae472a00bed4ad73ec7cefbdec24ea56fe874c1822ec0512e",
+        "size_in_bytes": 24621
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/pdb/pdbfile.py",
+        "path_type": "hardlink",
+        "sha256": "1ddc7526c1f0fec07ad9594fac8d9adb95d1e2633b688f2563fc08e06730a968",
+        "sha256_in_prefix": "1ddc7526c1f0fec07ad9594fac8d9adb95d1e2633b688f2563fc08e06730a968",
+        "size_in_bytes": 30864
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/pdb/pdbstructure.py",
+        "path_type": "hardlink",
+        "sha256": "013485221d1fb107a4a3bdedc0fedfd96a3a49e7af3e273e8e868ae3f1c5159b",
+        "sha256_in_prefix": "013485221d1fb107a4a3bdedc0fedfd96a3a49e7af3e273e8e868ae3f1c5159b",
+        "size_in_bytes": 37300
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/prmtop.py",
+        "path_type": "hardlink",
+        "sha256": "e394e7391adbab0d2a7aa1b10e889693a1fa20231dbf9dfc44c9e6081c74ccd4",
+        "sha256_in_prefix": "e394e7391adbab0d2a7aa1b10e889693a1fa20231dbf9dfc44c9e6081c74ccd4",
+        "size_in_bytes": 9202
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/psf.py",
+        "path_type": "hardlink",
+        "sha256": "0a917650acbe858e9d94b8ee2d5e9a0457e8c395ef20b0f19bdabf53da558af8",
+        "sha256_in_prefix": "0a917650acbe858e9d94b8ee2d5e9a0457e8c395ef20b0f19bdabf53da558af8",
+        "size_in_bytes": 9757
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/registry.py",
+        "path_type": "hardlink",
+        "sha256": "1498f0e3885f308b56e9697ad222c1bddb82deddfa9f61a4ebaf29955df9c679",
+        "sha256_in_prefix": "1498f0e3885f308b56e9697ad222c1bddb82deddfa9f61a4ebaf29955df9c679",
+        "size_in_bytes": 1089
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/tng.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "3238d711b59d410ac57cd1ae6632d37a0a5d1ff60fbec1d50b5c3f3d9b4b9c4f",
+        "sha256_in_prefix": "3238d711b59d410ac57cd1ae6632d37a0a5d1ff60fbec1d50b5c3f3d9b4b9c4f",
+        "size_in_bytes": 545664
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/trr.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "a0755caa8e8518bea121b54ecd32d4f974d890d30bea10a4a67e3ee48b370cfb",
+        "sha256_in_prefix": "a0755caa8e8518bea121b54ecd32d4f974d890d30bea10a4a67e3ee48b370cfb",
+        "size_in_bytes": 414520
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/xtc.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "a60c2d176ba9733f868c934132d100af33fe87f3b5ce556f8ae9f10ceaa45caa",
+        "sha256_in_prefix": "a60c2d176ba9733f868c934132d100af33fe87f3b5ce556f8ae9f10ceaa45caa",
+        "size_in_bytes": 368656
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/formats/xyzfile.py",
+        "path_type": "hardlink",
+        "sha256": "f16734ebf9c00421a656a2976a8f6d7b9d8defd85b351ceaa0c02deaa1f73d0e",
+        "sha256_in_prefix": "f16734ebf9c00421a656a2976a8f6d7b9d8defd85b351ceaa0c02deaa1f73d0e",
+        "size_in_bytes": 14121
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4b7b9662770df90ff627ba7f30704f06d9e9252e214d9bad3770cb5399d234cb",
+        "sha256_in_prefix": "4b7b9662770df90ff627ba7f30704f06d9e9252e214d9bad3770cb5399d234cb",
+        "size_in_bytes": 2412
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ccd679b96014abc07421f89ce0cf462749c584e99536698d08260234393d063",
+        "sha256_in_prefix": "2ccd679b96014abc07421f89ce0cf462749c584e99536698d08260234393d063",
+        "size_in_bytes": 1370
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/alignment.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3a9928b705f67a70abc18f112d268a5ed22fbd012731b79f49729433dbd8896",
+        "sha256_in_prefix": "a3a9928b705f67a70abc18f112d268a5ed22fbd012731b79f49729433dbd8896",
+        "size_in_bytes": 8233
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/angle.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a75e77d50280acc04dc28b095e487807211cfc6d4d35a178f45a12055d514f59",
+        "sha256_in_prefix": "a75e77d50280acc04dc28b095e487807211cfc6d4d35a178f45a12055d514f59",
+        "size_in_bytes": 2623
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/contact.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7de1ac795d284c8589dc60e30c588d43070a56993db437a8617e269a2d3719fd",
+        "sha256_in_prefix": "7de1ac795d284c8589dc60e30c588d43070a56993db437a8617e269a2d3719fd",
+        "size_in_bytes": 10999
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/dihedral.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "83c21114d7f668f7a7d81f0ccd8155db877206b1e9bf2d4fe87376cadf7d3794",
+        "sha256_in_prefix": "83c21114d7f668f7a7d81f0ccd8155db877206b1e9bf2d4fe87376cadf7d3794",
+        "size_in_bytes": 21435
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/distance.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9656f77864a83db3fa03ee174e134ba1178d17c5b496dbcb4aa0b1daf314c7cb",
+        "sha256_in_prefix": "9656f77864a83db3fa03ee174e134ba1178d17c5b496dbcb4aa0b1daf314c7cb",
+        "size_in_bytes": 13702
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/dssp.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e9907345a1358877db6da96e65a660aecbabe56513afc2ac80f434f165b630b4",
+        "sha256_in_prefix": "e9907345a1358877db6da96e65a660aecbabe56513afc2ac80f434f165b630b4",
+        "size_in_bytes": 3109
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/hbond.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "dac163258dcb1f37dd83c376d38f54361271aa7f58abc859bbc1cb5a1bc06518",
+        "sha256_in_prefix": "dac163258dcb1f37dd83c376d38f54361271aa7f58abc859bbc1cb5a1bc06518",
+        "size_in_bytes": 15413
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/internal.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fdefc17afd09180f1b15d00e194f367c3505267f6190b85e15ee6931962ea32a",
+        "sha256_in_prefix": "fdefc17afd09180f1b15d00e194f367c3505267f6190b85e15ee6931962ea32a",
+        "size_in_bytes": 15996
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/order.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0e71a0ce78700feb192dc542f5c17a9d19ad67a741ba5e869376ae72372f35ef",
+        "sha256_in_prefix": "0e71a0ce78700feb192dc542f5c17a9d19ad67a741ba5e869376ae72372f35ef",
+        "size_in_bytes": 10697
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/rdf.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "248adce8caf5e0986df171d1d918bcf45e3628a1d391d9dfc613ae8cca3f774a",
+        "sha256_in_prefix": "248adce8caf5e0986df171d1d918bcf45e3628a1d391d9dfc613ae8cca3f774a",
+        "size_in_bytes": 5686
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/rg.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9bbf8bd696e9682d6a4ad483da76cc79425b2121486a6916ae581548fb6b12fc",
+        "sha256_in_prefix": "9bbf8bd696e9682d6a4ad483da76cc79425b2121486a6916ae581548fb6b12fc",
+        "size_in_bytes": 1588
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/sasa.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5797178e3dcca9200c476f2d8007bed26d11069e65ce7a9cbf1499ab27824a7b",
+        "sha256_in_prefix": "5797178e3dcca9200c476f2d8007bed26d11069e65ce7a9cbf1499ab27824a7b",
+        "size_in_bytes": 6221
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/shape.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd828afd12f8e03598518278fae956ea363a170a0fea95820f6af94f9ea90f63",
+        "sha256_in_prefix": "bd828afd12f8e03598518278fae956ea363a170a0fea95820f6af94f9ea90f63",
+        "size_in_bytes": 4389
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/__pycache__/thermodynamic_properties.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d6361f233ac518d98b06f03f3b82274372819438e04a0157ae280a00a82397be",
+        "sha256_in_prefix": "d6361f233ac518d98b06f03f3b82274372819438e04a0157ae280a00a82397be",
+        "size_in_bytes": 6198
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/_geometry.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "bc68cd34fd24ef7a105eb90fe474a561790591be00ad687db660c53dca0aedef",
+        "sha256_in_prefix": "bc68cd34fd24ef7a105eb90fe474a561790591be00ad687db660c53dca0aedef",
+        "size_in_bytes": 506528
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/alignment.py",
+        "path_type": "hardlink",
+        "sha256": "523678db27bdc693b5c9e8f54445741bb20de112b33218c8c6228d98203693ba",
+        "sha256_in_prefix": "523678db27bdc693b5c9e8f54445741bb20de112b33218c8c6228d98203693ba",
+        "size_in_bytes": 9825
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/angle.py",
+        "path_type": "hardlink",
+        "sha256": "9f580e568a4db166e7bf3848a091295ec0ebd367e2cea8d1776dda68c225aff0",
+        "sha256_in_prefix": "9f580e568a4db166e7bf3848a091295ec0ebd367e2cea8d1776dda68c225aff0",
+        "size_in_bytes": 4301
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/contact.py",
+        "path_type": "hardlink",
+        "sha256": "063e3813afa745638247f97d1de8ed07e155b9ac6fe1f6b063fb19bc53afa2b6",
+        "sha256_in_prefix": "063e3813afa745638247f97d1de8ed07e155b9ac6fe1f6b063fb19bc53afa2b6",
+        "size_in_bytes": 13688
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/dihedral.py",
+        "path_type": "hardlink",
+        "sha256": "6a8aeef61f7904d0e9f1f1fe8320bbde0f421a783802e04729f69dd529491c9c",
+        "sha256_in_prefix": "6a8aeef61f7904d0e9f1f1fe8320bbde0f421a783802e04729f69dd529491c9c",
+        "size_in_bytes": 23759
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/distance.py",
+        "path_type": "hardlink",
+        "sha256": "74170f8759e6aa35c44879c20ad9772fea4c3f7181a5a3b0abe9e368f584b131",
+        "sha256_in_prefix": "74170f8759e6aa35c44879c20ad9772fea4c3f7181a5a3b0abe9e368f584b131",
+        "size_in_bytes": 17131
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/drid.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "fd09c7056ec271072819e045469db6015629ad9923aa4d6dc17267da9e30fee6",
+        "sha256_in_prefix": "fd09c7056ec271072819e045469db6015629ad9923aa4d6dc17267da9e30fee6",
+        "size_in_bytes": 309800
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/dssp.py",
+        "path_type": "hardlink",
+        "sha256": "7403f603978f23f730d229dc689bb96bd0e85af8ba33ea4864685d15005f3475",
+        "sha256_in_prefix": "7403f603978f23f730d229dc689bb96bd0e85af8ba33ea4864685d15005f3475",
+        "size_in_bytes": 3484
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/hbond.py",
+        "path_type": "hardlink",
+        "sha256": "c7c237ff5bc9e82e69a2ae610a179ef2510d738bc77d810eb24613a8d795a26f",
+        "sha256_in_prefix": "c7c237ff5bc9e82e69a2ae610a179ef2510d738bc77d810eb24613a8d795a26f",
+        "size_in_bytes": 18311
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/internal.py",
+        "path_type": "hardlink",
+        "sha256": "8ce196ec0d1155d419fc0be07d047895ce331592c3ecf64d58933481ec53f2e3",
+        "sha256_in_prefix": "8ce196ec0d1155d419fc0be07d047895ce331592c3ecf64d58933481ec53f2e3",
+        "size_in_bytes": 20595
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/neighborlist.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "fabb8cd83a61d4c7e1210960f8511cbc6b546d2f141b6b09890a25bb632e48f4",
+        "sha256_in_prefix": "fabb8cd83a61d4c7e1210960f8511cbc6b546d2f141b6b09890a25bb632e48f4",
+        "size_in_bytes": 293216
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/neighbors.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "8eb4d3aae9adabfe7029c0b6c501e8ae9b231af72ec3ac0422685fd8ac14b45b",
+        "sha256_in_prefix": "8eb4d3aae9adabfe7029c0b6c501e8ae9b231af72ec3ac0422685fd8ac14b45b",
+        "size_in_bytes": 292288
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/order.py",
+        "path_type": "hardlink",
+        "sha256": "f648d97a81f47419e35bb3c509b921fa0bcf8824e45ecfef7d5291281b75157b",
+        "sha256_in_prefix": "f648d97a81f47419e35bb3c509b921fa0bcf8824e45ecfef7d5291281b75157b",
+        "size_in_bytes": 12587
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/rdf.py",
+        "path_type": "hardlink",
+        "sha256": "7f65755bbd6121f35bdd5a06deb6d5450518af2266a235671b090564491bd13a",
+        "sha256_in_prefix": "7f65755bbd6121f35bdd5a06deb6d5450518af2266a235671b090564491bd13a",
+        "size_in_bytes": 8022
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/rg.py",
+        "path_type": "hardlink",
+        "sha256": "a55a48f267883eab85b93c9f155cc7ca9e7c2f080be9954272c7b52b1ce8b8a9",
+        "sha256_in_prefix": "a55a48f267883eab85b93c9f155cc7ca9e7c2f080be9954272c7b52b1ce8b8a9",
+        "size_in_bytes": 2799
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/sasa.py",
+        "path_type": "hardlink",
+        "sha256": "414bb290c002aeebc0b04fde65b91cef9bf0e648837bff0e016442ec592fafc5",
+        "sha256_in_prefix": "414bb290c002aeebc0b04fde65b91cef9bf0e648837bff0e016442ec592fafc5",
+        "size_in_bytes": 10018
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/shape.py",
+        "path_type": "hardlink",
+        "sha256": "0742dd4a7a16850c3bc6d6cfb9085723646378bd63223e4312e58c6ae19d40a3",
+        "sha256_in_prefix": "0742dd4a7a16850c3bc6d6cfb9085723646378bd63223e4312e58c6ae19d40a3",
+        "size_in_bytes": 5326
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/geometry/thermodynamic_properties.py",
+        "path_type": "hardlink",
+        "sha256": "85822bc6884707483a2647e5ca378598cdffc4b71191455ae3820eb012fc249b",
+        "sha256_in_prefix": "85822bc6884707483a2647e5ca378598cdffc4b71191455ae3820eb012fc249b",
+        "size_in_bytes": 6589
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/io.py",
+        "path_type": "hardlink",
+        "sha256": "b8074f05706d9570f6d0b49539568c25cefb4335924a97904f159e0ce5bc3d88",
+        "sha256_in_prefix": "b8074f05706d9570f6d0b49539568c25cefb4335924a97904f159e0ce5bc3d88",
+        "size_in_bytes": 13392
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/nmr/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8c45776eee7d7bc25974297031547a4a8119d9dca71f032f0e01e91853af1a0e",
+        "sha256_in_prefix": "8c45776eee7d7bc25974297031547a4a8119d9dca71f032f0e01e91853af1a0e",
+        "size_in_bytes": 275
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/nmr/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "89efc148419c33ef5b89edeb6b29e17c54586c95b3870aea1cce944f6ca437df",
+        "sha256_in_prefix": "89efc148419c33ef5b89edeb6b29e17c54586c95b3870aea1cce944f6ca437df",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/nmr/__pycache__/scalar_couplings.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "179ade2801df6493c6dd2dfe8aafa1c4b2278b6a6c53b5db13e071832e72fcc8",
+        "sha256_in_prefix": "179ade2801df6493c6dd2dfe8aafa1c4b2278b6a6c53b5db13e071832e72fcc8",
+        "size_in_bytes": 6097
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/nmr/__pycache__/shift_wrappers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd54780fef62eb99bb4b305a93857b3164c6c5d294a145b80381d4d5b5ffdf59",
+        "sha256_in_prefix": "fd54780fef62eb99bb4b305a93857b3164c6c5d294a145b80381d4d5b5ffdf59",
+        "size_in_bytes": 10073
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/nmr/scalar_couplings.py",
+        "path_type": "hardlink",
+        "sha256": "3d58f4cb20b0a4ebd4148b6f1faabd8ad98bc82ae5daf8dd2df7a7c51c9c2054",
+        "sha256_in_prefix": "3d58f4cb20b0a4ebd4148b6f1faabd8ad98bc82ae5daf8dd2df7a7c51c9c2054",
+        "size_in_bytes": 8005
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/nmr/shift_wrappers.py",
+        "path_type": "hardlink",
+        "sha256": "257a3cffb2c1963c88bade47003f8c68234efd550b40acfcf2ef08a42b1b0c1c",
+        "sha256_in_prefix": "257a3cffb2c1963c88bade47003f8c68234efd550b40acfcf2ef08a42b1b0c1c",
+        "size_in_bytes": 12252
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/reporters/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f0db93c6cfcadde6979b6c6d8a0f9a56d8963b009fef57bc22760907cdec55eb",
+        "sha256_in_prefix": "f0db93c6cfcadde6979b6c6d8a0f9a56d8963b009fef57bc22760907cdec55eb",
+        "size_in_bytes": 204
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/reporters/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b8112a786e5c26d967a0285d2356898f5ad6cb56912c2d898c7dd99cc16747d2",
+        "sha256_in_prefix": "b8112a786e5c26d967a0285d2356898f5ad6cb56912c2d898c7dd99cc16747d2",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/reporters/__pycache__/basereporter.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6eec4379adb33c15390b3d9bdada2dfcf40848a7189975761811fd9a2e25e210",
+        "sha256_in_prefix": "6eec4379adb33c15390b3d9bdada2dfcf40848a7189975761811fd9a2e25e210",
+        "size_in_bytes": 8160
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/reporters/__pycache__/dcdreporter.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a6d670e052abddf996b9c1f046d9098b4a1543c9bd7f8c2ac9c39bbd3b4279a1",
+        "sha256_in_prefix": "a6d670e052abddf996b9c1f046d9098b4a1543c9bd7f8c2ac9c39bbd3b4279a1",
+        "size_in_bytes": 1956
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/reporters/__pycache__/hdf5reporter.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "103d5f0191eb8316ea12741a4eb16915b8b6ca8bf2689c8bc634a1037f1378ba",
+        "sha256_in_prefix": "103d5f0191eb8316ea12741a4eb16915b8b6ca8bf2689c8bc634a1037f1378ba",
+        "size_in_bytes": 3658
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/reporters/__pycache__/netcdfreporter.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f87581ce81d663330d226e077a6e38597c5b244216e809d35f47e56df1bab01a",
+        "sha256_in_prefix": "f87581ce81d663330d226e077a6e38597c5b244216e809d35f47e56df1bab01a",
+        "size_in_bytes": 2232
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/reporters/__pycache__/xtcreporter.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b3bd561d92295b21b65c639f418b3e2e44f951457bcb9e0398d11ef2dd6d6af",
+        "sha256_in_prefix": "5b3bd561d92295b21b65c639f418b3e2e44f951457bcb9e0398d11ef2dd6d6af",
+        "size_in_bytes": 3550
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/reporters/basereporter.py",
+        "path_type": "hardlink",
+        "sha256": "f4dd658bbaa5be75319576ae3079fcf6f5c8d0c8a2c1ed1c0589804148b34187",
+        "sha256_in_prefix": "f4dd658bbaa5be75319576ae3079fcf6f5c8d0c8a2c1ed1c0589804148b34187",
+        "size_in_bytes": 11022
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/reporters/dcdreporter.py",
+        "path_type": "hardlink",
+        "sha256": "285387772f2f32c9467121b02428097140a951623bd51801e5a9af2bbe38ddb7",
+        "sha256_in_prefix": "285387772f2f32c9467121b02428097140a951623bd51801e5a9af2bbe38ddb7",
+        "size_in_bytes": 2555
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/reporters/hdf5reporter.py",
+        "path_type": "hardlink",
+        "sha256": "121cdf860793677f5a6622fe8aa58424fcca92ab6103f22f968a14854d51f978",
+        "sha256_in_prefix": "121cdf860793677f5a6622fe8aa58424fcca92ab6103f22f968a14854d51f978",
+        "size_in_bytes": 4749
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/reporters/netcdfreporter.py",
+        "path_type": "hardlink",
+        "sha256": "57a916d60bd6dc332448e99754843f567652d70213520d5f332a9d6372cab03d",
+        "sha256_in_prefix": "57a916d60bd6dc332448e99754843f567652d70213520d5f332a9d6372cab03d",
+        "size_in_bytes": 3211
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/reporters/xtcreporter.py",
+        "path_type": "hardlink",
+        "sha256": "36f8751f092af6c8a88feec78e77f49a4f7efe876e5855726794ec29270b592a",
+        "sha256_in_prefix": "36f8751f092af6c8a88feec78e77f49a4f7efe876e5855726794ec29270b592a",
+        "size_in_bytes": 5179
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/scripts/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/scripts/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e64b11f1f4f9a2aa773e62addff2069a825ecbce027162fb52c303dc39af3f59",
+        "sha256_in_prefix": "e64b11f1f4f9a2aa773e62addff2069a825ecbce027162fb52c303dc39af3f59",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/scripts/__pycache__/mdconvert.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4fec793db89a9f35052e0515e2c546b69d9d879c9fdaeef6832e85f64ef6aa84",
+        "sha256_in_prefix": "4fec793db89a9f35052e0515e2c546b69d9d879c9fdaeef6832e85f64ef6aa84",
+        "size_in_bytes": 13053
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/scripts/__pycache__/mdinspect.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d9041f4e5b4784e5d8918ed974dfa0ca9ecbe0edeeb649ffca3ffdf1c9d97fcd",
+        "sha256_in_prefix": "d9041f4e5b4784e5d8918ed974dfa0ca9ecbe0edeeb649ffca3ffdf1c9d97fcd",
+        "size_in_bytes": 7741
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/scripts/mdconvert.py",
+        "path_type": "hardlink",
+        "sha256": "537d7b4efc4847fa466f7aecf5e69c759fe7a86e99b642cc00f0472bd41786ab",
+        "sha256_in_prefix": "537d7b4efc4847fa466f7aecf5e69c759fe7a86e99b642cc00f0472bd41786ab",
+        "size_in_bytes": 20690
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/scripts/mdinspect.py",
+        "path_type": "hardlink",
+        "sha256": "bafee4ce63c9099353de23edc5cfa7376b2108aa9cc8fa32ff52e8c7ad7da352",
+        "sha256_in_prefix": "bafee4ce63c9099353de23edc5cfa7376b2108aa9cc8fa32ff52e8c7ad7da352",
+        "size_in_bytes": 8485
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/testing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "77c48f851d7057edb4cfce75576d563b2c21d53b0b70c885400d59377c30094e",
+        "sha256_in_prefix": "77c48f851d7057edb4cfce75576d563b2c21d53b0b70c885400d59377c30094e",
+        "size_in_bytes": 1142
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/testing/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0dfb90124a3382b57764e772825c8dbcac8f7bc6f4ef0ce676a2898b7a36d17d",
+        "sha256_in_prefix": "0dfb90124a3382b57764e772825c8dbcac8f7bc6f4ef0ce676a2898b7a36d17d",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/testing/__pycache__/docscrape.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5fcd8562b4d09da6e46341140f7ac70292b9cfc3878399e8181b950c778345a0",
+        "sha256_in_prefix": "5fcd8562b4d09da6e46341140f7ac70292b9cfc3878399e8181b950c778345a0",
+        "size_in_bytes": 15470
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/testing/__pycache__/docstrings.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1582dfd864c979a3266165f0a1615467b2ddc6be6ef0e3a76afb420304322b5f",
+        "sha256_in_prefix": "1582dfd864c979a3266165f0a1615467b2ddc6be6ef0e3a76afb420304322b5f",
+        "size_in_bytes": 6073
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/testing/__pycache__/testing.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2eba5d2cb4423e99a5dfe986dbeaa1f176b9f1c33d99795fedb2c3a06f14b9f",
+        "sha256_in_prefix": "e2eba5d2cb4423e99a5dfe986dbeaa1f176b9f1c33d99795fedb2c3a06f14b9f",
+        "size_in_bytes": 4560
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/testing/docscrape.py",
+        "path_type": "hardlink",
+        "sha256": "d1f04cdcaaac6e284833967962480e35100092ddd679649258dafdd0af81b3f2",
+        "sha256_in_prefix": "d1f04cdcaaac6e284833967962480e35100092ddd679649258dafdd0af81b3f2",
+        "size_in_bytes": 17166
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/testing/docstrings.py",
+        "path_type": "hardlink",
+        "sha256": "9fd0860c20fb1cd4b2f965d28ed4920bd325046d9a120abb7872e781aae2ffd9",
+        "sha256_in_prefix": "9fd0860c20fb1cd4b2f965d28ed4920bd325046d9a120abb7872e781aae2ffd9",
+        "size_in_bytes": 7568
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/testing/testing.py",
+        "path_type": "hardlink",
+        "sha256": "e7c2e4e43f187eac576fdfdb0824eb8a822a20f00c86b479e3e557f57423c01c",
+        "sha256_in_prefix": "e7c2e4e43f187eac576fdfdb0824eb8a822a20f00c86b479e3e557f57423c01c",
+        "size_in_bytes": 7047
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "47b9f55154ccd1d0e7be94985381648aea794985eb9622377cde243b354e6004",
+        "sha256_in_prefix": "47b9f55154ccd1d0e7be94985381648aea794985eb9622377cde243b354e6004",
+        "size_in_bytes": 3764
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a8a0f0b5f2bf93b08e972c1c8ff41780941007cfc400c9181afd7edb45650575",
+        "sha256_in_prefix": "a8a0f0b5f2bf93b08e972c1c8ff41780941007cfc400c9181afd7edb45650575",
+        "size_in_bytes": 3947
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/__pycache__/contextmanagers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f77352d471216bbb76664137b81c209bf54bb91acb1438961b84a00f023685c",
+        "sha256_in_prefix": "9f77352d471216bbb76664137b81c209bf54bb91acb1438961b84a00f023685c",
+        "size_in_bytes": 1551
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/__pycache__/delay_import.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f5ec3b746c091d208d2c355bea6aca0338b12c2161a8f077b4863f09933f9359",
+        "sha256_in_prefix": "f5ec3b746c091d208d2c355bea6aca0338b12c2161a8f077b4863f09933f9359",
+        "size_in_bytes": 6230
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/__pycache__/rotation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec3667157a738373b3e0367c047565a51acf1f76df5ee7a88566e8bff35c89cf",
+        "sha256_in_prefix": "ec3667157a738373b3e0367c047565a51acf1f76df5ee7a88566e8bff35c89cf",
+        "size_in_bytes": 3489
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/__pycache__/singleton.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b8f247dc96945f821d3785ffcb08b5e24a1861bf679198d7e3bf1794dca5eda7",
+        "sha256_in_prefix": "b8f247dc96945f821d3785ffcb08b5e24a1861bf679198d7e3bf1794dca5eda7",
+        "size_in_bytes": 934
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/__pycache__/six.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b0eab184f541b70c28745c83c88f29c08cd50cad24f46dbad8bfc99aa3fca0d",
+        "sha256_in_prefix": "3b0eab184f541b70c28745c83c88f29c08cd50cad24f46dbad8bfc99aa3fca0d",
+        "size_in_bytes": 16199
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/__pycache__/unitcell.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "73107e82773d6b65d389a5a21417c5fd0e376b1f299721c89266673d14b0ba6d",
+        "sha256_in_prefix": "73107e82773d6b65d389a5a21417c5fd0e376b1f299721c89266673d14b0ba6d",
+        "size_in_bytes": 6570
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/__pycache__/validation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b4c579950f72278b987e513c4ffbf904fe92bc461c30e95aef516820de8172b7",
+        "sha256_in_prefix": "b4c579950f72278b987e513c4ffbf904fe92bc461c30e95aef516820de8172b7",
+        "size_in_bytes": 5322
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/__pycache__/zipped.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4fa8a0e60c44612e2cd08d86021924334748269dbe25f7df9bcabd758e1cd549",
+        "sha256_in_prefix": "4fa8a0e60c44612e2cd08d86021924334748269dbe25f7df9bcabd758e1cd549",
+        "size_in_bytes": 1652
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/contextmanagers.py",
+        "path_type": "hardlink",
+        "sha256": "e4ed16c65c6eafdb156295b611f5759779bfd74d4383107af0819e3d9efcc868",
+        "sha256_in_prefix": "e4ed16c65c6eafdb156295b611f5759779bfd74d4383107af0819e3d9efcc868",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/delay_import.py",
+        "path_type": "hardlink",
+        "sha256": "0937ba5455409a837543c8ce7168059edf40525b19dece316b1ed209c31e7706",
+        "sha256_in_prefix": "0937ba5455409a837543c8ce7168059edf40525b19dece316b1ed209c31e7706",
+        "size_in_bytes": 7695
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/rotation.py",
+        "path_type": "hardlink",
+        "sha256": "f7e17a3cb2ef28431da553f677d4cb10ee1d4f70c5942b4269d1f8924591c22e",
+        "sha256_in_prefix": "f7e17a3cb2ef28431da553f677d4cb10ee1d4f70c5942b4269d1f8924591c22e",
+        "size_in_bytes": 4835
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/singleton.py",
+        "path_type": "hardlink",
+        "sha256": "0017531e40e43b7d0278d153dd31c9a7c5680826a3942189ba83a7814837f640",
+        "sha256_in_prefix": "0017531e40e43b7d0278d153dd31c9a7c5680826a3942189ba83a7814837f640",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/six.py",
+        "path_type": "hardlink",
+        "sha256": "48d5c0a4337b8f09a55fcfcd2c26fa71a92caf7f7bf099a62f72e02ce36d1eab",
+        "sha256_in_prefix": "48d5c0a4337b8f09a55fcfcd2c26fa71a92caf7f7bf099a62f72e02ce36d1eab",
+        "size_in_bytes": 20588
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b246f3283c2acfcd632ba5d047aa436a7f742ab17aee9250983f3788f36c5101",
+        "sha256_in_prefix": "b246f3283c2acfcd632ba5d047aa436a7f742ab17aee9250983f3788f36c5101",
+        "size_in_bytes": 6980
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "abd250e9399040424af7d844febcf81c73ce638648f2cef368fcd4b62b303a49",
+        "sha256_in_prefix": "abd250e9399040424af7d844febcf81c73ce638648f2cef368fcd4b62b303a49",
+        "size_in_bytes": 5144
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/basedimension.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "896eb4bb3e41ba15375cf26314a0e3170f596333cb9ed47b7866f2c7f6e5714f",
+        "sha256_in_prefix": "896eb4bb3e41ba15375cf26314a0e3170f596333cb9ed47b7866f2c7f6e5714f",
+        "size_in_bytes": 3653
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/baseunit.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d50c9c0396c4845e89c37326b1396d7d85cebc0e3588274e0d267b4783f8382f",
+        "sha256_in_prefix": "d50c9c0396c4845e89c37326b1396d7d85cebc0e3588274e0d267b4783f8382f",
+        "size_in_bytes": 6405
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/constants.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "19a9a014fba608df16dba73936716ac60f19a46606c51b63b5fa8d1936b3e756",
+        "sha256_in_prefix": "19a9a014fba608df16dba73936716ac60f19a46606c51b63b5fa8d1936b3e756",
+        "size_in_bytes": 2148
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/doctests.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "02a6359bca1868891b10bc7c5b96ff2cfa980b2908462121cd8d9d74bb441a67",
+        "sha256_in_prefix": "02a6359bca1868891b10bc7c5b96ff2cfa980b2908462121cd8d9d74bb441a67",
+        "size_in_bytes": 21013
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/mymatrix.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "902effdc31b1f4ce2f166ad4ec3c8d2e3d767c28f2558d11dcba3074ecaf1ce0",
+        "sha256_in_prefix": "902effdc31b1f4ce2f166ad4ec3c8d2e3d767c28f2558d11dcba3074ecaf1ce0",
+        "size_in_bytes": 13071
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/prefix.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "289e5e6ae0a152e4f3e292ccaa25c72eac4f7dce0580ddded088c8d398bec56e",
+        "sha256_in_prefix": "289e5e6ae0a152e4f3e292ccaa25c72eac4f7dce0580ddded088c8d398bec56e",
+        "size_in_bytes": 5256
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/quantity.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b8e61af1e03efadde91de29db84c8a07e576c98c7ff40cb28d34a065b963e5c",
+        "sha256_in_prefix": "7b8e61af1e03efadde91de29db84c8a07e576c98c7ff40cb28d34a065b963e5c",
+        "size_in_bytes": 21633
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/standard_dimensions.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e14679126ed7ee4c650692a7a39bd7f1bcf78c475d9be5fb9a9d458bc6d7d331",
+        "sha256_in_prefix": "e14679126ed7ee4c650692a7a39bd7f1bcf78c475d9be5fb9a9d458bc6d7d331",
+        "size_in_bytes": 2283
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/unit.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b089f4a220e54eeeded7374566d1a08efc3d30800cc7560252541aee2732f47",
+        "sha256_in_prefix": "1b089f4a220e54eeeded7374566d1a08efc3d30800cc7560252541aee2732f47",
+        "size_in_bytes": 18271
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/unit_definitions.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "db8ea54e8d8e0ff3e29a054d7f1a9ec6ed3a49ddb81e56646fd327b902493671",
+        "sha256_in_prefix": "db8ea54e8d8e0ff3e29a054d7f1a9ec6ed3a49ddb81e56646fd327b902493671",
+        "size_in_bytes": 8357
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/unit_math.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec8d640c57840039f9535c8987e9385128d6e51fa126a827c9b22625ffd19806",
+        "sha256_in_prefix": "ec8d640c57840039f9535c8987e9385128d6e51fa126a827c9b22625ffd19806",
+        "size_in_bytes": 5219
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/__pycache__/unit_operators.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f170569d3354444eb01630e08d6a71111525331bd7faa0af5ebaef4e77e53bb0",
+        "sha256_in_prefix": "f170569d3354444eb01630e08d6a71111525331bd7faa0af5ebaef4e77e53bb0",
+        "size_in_bytes": 4502
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/basedimension.py",
+        "path_type": "hardlink",
+        "sha256": "a7704904b9cdb6e6af5e1f5c4b0eb8bb5a5de3524ab754bba49702df7f9584e5",
+        "sha256_in_prefix": "a7704904b9cdb6e6af5e1f5c4b0eb8bb5a5de3524ab754bba49702df7f9584e5",
+        "size_in_bytes": 3400
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/baseunit.py",
+        "path_type": "hardlink",
+        "sha256": "3b35373227a620f6b9a467d91a97f4da44d82ef96fe5310253d37246c81b07e8",
+        "sha256_in_prefix": "3b35373227a620f6b9a467d91a97f4da44d82ef96fe5310253d37246c81b07e8",
+        "size_in_bytes": 7031
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/constants.py",
+        "path_type": "hardlink",
+        "sha256": "b44363a76c30acaddbe9720a1b0dad808241681b091d627a7ca91af01ddd9be4",
+        "sha256_in_prefix": "b44363a76c30acaddbe9720a1b0dad808241681b091d627a7ca91af01ddd9be4",
+        "size_in_bytes": 2155
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/doctests.py",
+        "path_type": "hardlink",
+        "sha256": "8de77381553c5abac6903eef18926f3517a86192e593e163fef42ec894611fac",
+        "sha256_in_prefix": "8de77381553c5abac6903eef18926f3517a86192e593e163fef42ec894611fac",
+        "size_in_bytes": 21017
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/mymatrix.py",
+        "path_type": "hardlink",
+        "sha256": "aa5e8358e0eeb81eaaeb381b4224628f66ac5c65c825c73318c8191563b8b598",
+        "sha256_in_prefix": "aa5e8358e0eeb81eaaeb381b4224628f66ac5c65c825c73318c8191563b8b598",
+        "size_in_bytes": 13404
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/prefix.py",
+        "path_type": "hardlink",
+        "sha256": "fce0a6e318b04be11615f18372736433a24f5567ae5d9b1425ebb83f1a5723a3",
+        "sha256_in_prefix": "fce0a6e318b04be11615f18372736433a24f5567ae5d9b1425ebb83f1a5723a3",
+        "size_in_bytes": 6747
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/quantity.py",
+        "path_type": "hardlink",
+        "sha256": "c99ed107dcf8dd65f387336e7fe04764798e3292ef2f7667c4a2254c55d86628",
+        "sha256_in_prefix": "c99ed107dcf8dd65f387336e7fe04764798e3292ef2f7667c4a2254c55d86628",
+        "size_in_bytes": 27291
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/standard_dimensions.py",
+        "path_type": "hardlink",
+        "sha256": "e2c0d8d2ddd25947e51e88c26a9c794dad6e3d1d4e74919789b2d75d725c5c79",
+        "sha256_in_prefix": "e2c0d8d2ddd25947e51e88c26a9c794dad6e3d1d4e74919789b2d75d725c5c79",
+        "size_in_bytes": 2307
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/unit.py",
+        "path_type": "hardlink",
+        "sha256": "40a75ee4c47dc71dd984cb7129643acd4b447a352b6949a11571b2f22552a800",
+        "sha256_in_prefix": "40a75ee4c47dc71dd984cb7129643acd4b447a352b6949a11571b2f22552a800",
+        "size_in_bytes": 25704
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/unit_definitions.py",
+        "path_type": "hardlink",
+        "sha256": "1ebd28ae421216966acd2ece75e2f1bd3cceb1493a0fbe1561d85c5a5b5ef8f7",
+        "sha256_in_prefix": "1ebd28ae421216966acd2ece75e2f1bd3cceb1493a0fbe1561d85c5a5b5ef8f7",
+        "size_in_bytes": 13287
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/unit_math.py",
+        "path_type": "hardlink",
+        "sha256": "947cfeb9c0a42c6a678606e67eee8324f872f8ce2c103a375c7a612f05bae1aa",
+        "sha256_in_prefix": "947cfeb9c0a42c6a678606e67eee8324f872f8ce2c103a375c7a612f05bae1aa",
+        "size_in_bytes": 4518
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unit/unit_operators.py",
+        "path_type": "hardlink",
+        "sha256": "eb25f2fdd2f318caa426f8873faed5ca92d0f57c073aee5f9172c59c577023ba",
+        "sha256_in_prefix": "eb25f2fdd2f318caa426f8873faed5ca92d0f57c073aee5f9172c59c577023ba",
+        "size_in_bytes": 5698
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/unitcell.py",
+        "path_type": "hardlink",
+        "sha256": "ad4459dfc2b8cb8029a1ac8f5c46b5f28ba4d3de8e96b43ddb33c3ef88ce2a44",
+        "sha256_in_prefix": "ad4459dfc2b8cb8029a1ac8f5c46b5f28ba4d3de8e96b43ddb33c3ef88ce2a44",
+        "size_in_bytes": 8245
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/validation.py",
+        "path_type": "hardlink",
+        "sha256": "2c00a77111bf2f1970c6fc1d503b01a84621a663d816fcddd0ad2bf5ea49e63d",
+        "sha256_in_prefix": "2c00a77111bf2f1970c6fc1d503b01a84621a663d816fcddd0ad2bf5ea49e63d",
+        "size_in_bytes": 8147
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/utils/zipped.py",
+        "path_type": "hardlink",
+        "sha256": "95bb70d1d9cc3d135c0121e827dd8bc5f3a52f0b34795223a16a236d40548a60",
+        "sha256_in_prefix": "95bb70d1d9cc3d135c0121e827dd8bc5f3a52f0b34795223a16a236d40548a60",
+        "size_in_bytes": 1899
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mdtraj/version.py",
+        "path_type": "hardlink",
+        "sha256": "b000efd5e9beb31c1be6c69a3ba386b6728253135ad6f85cdf827b003c7a6ba8",
+        "sha256_in_prefix": "b000efd5e9beb31c1be6c69a3ba386b6728253135ad6f85cdf827b003c7a6ba8",
+        "size_in_bytes": 158
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "mdtraj",
+  "sha256": "dfbd9c6a74cab33ab52a64afebee80c57b99549aab2a6103bbfa52c6d393ac36",
+  "size": 1874821,
+  "subdir": "linux-64",
+  "timestamp": 1638288185324,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mdtraj-1.9.7-py37h527cbdb_1.tar.bz2",
+  "version": "1.9.7"
+}

@@ -1,0 +1,46 @@
+{
+  "build": "h5eee18b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libcurl 7.87.0 h91b91d3_0",
+    "libgcc-ng >=11.2.0"
+  ],
+  "extracted_package_dir": "/home/rbetanzos/anaconda3/pkgs/curl-7.87.0-h5eee18b_0",
+  "features": "",
+  "files": [
+    "bin/curl"
+  ],
+  "fn": "curl-7.87.0-h5eee18b_0.conda",
+  "legacy_bz2_md5": "5ad4785aac77b82d125a484da8b87d13",
+  "license": "curl",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/rbetanzos/anaconda3/pkgs/curl-7.87.0-h5eee18b_0",
+    "type": 1
+  },
+  "md5": "e29317006df3f948862a93aeab9e4e39",
+  "name": "curl",
+  "package_tarball_full_path": "/home/rbetanzos/anaconda3/pkgs/curl-7.87.0-h5eee18b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/curl",
+        "path_type": "hardlink",
+        "sha256": "2dba270308e2218668299604bee322bcf0d7797339119c31dd9e0b2611ad39ee",
+        "sha256_in_prefix": "2dba270308e2218668299604bee322bcf0d7797339119c31dd9e0b2611ad39ee",
+        "size_in_bytes": 195088
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "20aa5911521166aacd443436eea581e132b6d267b3185cf8a60232965b495457",
+  "size": 89840,
+  "subdir": "linux-64",
+  "timestamp": 1674234310318,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/curl-7.87.0-h5eee18b_0.conda",
+  "version": "7.87.0"
+}

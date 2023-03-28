@@ -1,0 +1,44 @@
+{
+  "build": "openblas",
+  "build_number": 16,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "_openmp_mutex * *_llvm",
+    "_openmp_mutex >=4.5",
+    "blas-devel 3.9.0 16_linux64_openblas",
+    "libblas 3.9.0 16_linux64_openblas",
+    "libcblas 3.9.0 16_linux64_openblas",
+    "libgcc-ng >=12",
+    "libgfortran-ng",
+    "libgfortran5 >=10.4.0",
+    "liblapack 3.9.0 16_linux64_openblas",
+    "liblapacke 3.9.0 16_linux64_openblas",
+    "llvm-openmp >=14.0.4"
+  ],
+  "extracted_package_dir": "/home/rbetanzos/anaconda3/pkgs/blas-2.116-openblas",
+  "features": "",
+  "files": [],
+  "fn": "blas-2.116-openblas.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/rbetanzos/anaconda3/pkgs/blas-2.116-openblas",
+    "type": 1
+  },
+  "md5": "02f34bcf0aceb6fae4c4d1ecb71c852a",
+  "name": "blas",
+  "package_tarball_full_path": "/home/rbetanzos/anaconda3/pkgs/blas-2.116-openblas.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "bae2e1d6e490d27c25b44fbc90af00ab89cb5216d1fe3ae5156fb00ec5dca7d8",
+  "size": 13263,
+  "subdir": "linux-64",
+  "timestamp": 1660094523337,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/blas-2.116-openblas.tar.bz2",
+  "version": "2.116"
+}

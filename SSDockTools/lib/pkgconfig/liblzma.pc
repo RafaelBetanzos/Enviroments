@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/home/rbetanzos/git-holcan/enviroments/SSDockTools
+exec_prefix=/home/rbetanzos/git-holcan/enviroments/SSDockTools
+libdir=/home/rbetanzos/git-holcan/enviroments/SSDockTools/lib
+includedir=/home/rbetanzos/git-holcan/enviroments/SSDockTools/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.10
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

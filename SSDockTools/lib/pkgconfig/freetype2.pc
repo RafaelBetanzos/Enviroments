@@ -1,0 +1,14 @@
+prefix=/home/rbetanzos/git-holcan/enviroments/SSDockTools
+exec_prefix=/home/rbetanzos/git-holcan/enviroments/SSDockTools
+libdir=/home/rbetanzos/git-holcan/enviroments/SSDockTools/lib
+includedir=/home/rbetanzos/git-holcan/enviroments/SSDockTools/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: zlib, libpng
+Libs: -L/home/rbetanzos/git-holcan/enviroments/SSDockTools/lib -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2
